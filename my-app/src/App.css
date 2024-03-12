@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #1D2027, #80859b);
+}
+.calculator{
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #1A2031, #1D2027);
+}
+.calculator h1{
+  color: white;
+  
+}
+.nav__list{
+  display: flex;
+  align-items: center;
+}
+form input{
+  border:none;
+  border-radius: 5px;
+  outline: 0;
+  width: 70px;
+  height: 50px;
+  font-size: 1rem;
+  background-color: #363A4A;
+  margin: 2px;
+  color: white;
+  transition: 0.5s ease;
+  cursor: pointer;
+  font-weight: bolder;
+}
+form input[type="button"]:hover{
+  background-color: #434958;
+}
+.gray__input{
+  background-color: #434958;
+  transition: 0.3s ease;
+}
+.gray__input:hover{
+  background-color: #363A4A;
+}
+.light-gray__input{
+  background-color: #595959;
+}
+.light-gray__input:hover{
+  background-color: #595959;
+}
+form .display{
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 0px 15px 0px;
+}
+form .display input{
+  text-align: right;
+  flex: 1;
+  font-size: 40px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: transparent;
+
+}
+.equal{
+  width: 144px;
+}
+.menu{
+  color: white;
+  margin-right: 15px;
+  cursor: pointer;
+}
